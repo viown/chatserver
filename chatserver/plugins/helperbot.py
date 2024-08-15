@@ -24,10 +24,6 @@ class HelperBot(Plugin):
     def on_user_leave(self, user, room):
         self.broadcast(room, f"{user.name} has left the chat room!")
 
-    def on_message_received(self, author, message):
-        if "helperbot" in message:
-            self.reply(author, "that's me!")
-
     def on_command_received(self, author, command, *args):
         match command:
             case "users":
