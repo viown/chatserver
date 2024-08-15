@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "chatserver"
+version = "0.1.0"
+description = ""
+authors = ["viown <48097677+viown@users.noreply.github.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+twisted = "^24.7.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

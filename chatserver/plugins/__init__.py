@@ -1,0 +1,1 @@
+from chatserver.plugins.plugin import Plugin
